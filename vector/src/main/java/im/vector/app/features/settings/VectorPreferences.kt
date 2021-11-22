@@ -839,7 +839,7 @@ class VectorPreferences @Inject constructor(private val context: Context) {
      * @return true if the user wants to see URL previews in the timeline
      */
     fun showUrlPreviews(): Boolean {
-        return defaultPrefs.getBoolean(SETTINGS_SHOW_URL_PREVIEW_KEY, true)
+        return defaultPrefs.getBoolean(SETTINGS_SHOW_URL_PREVIEW_KEY, false)
     }
 
     /**
